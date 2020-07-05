@@ -6,7 +6,11 @@
 #        If you want to, change the names of your files in the last line.
 
 import os
-path = '/Users/saman/Documents/GitHub/TensorFlow-TrainingData/playdohRaw' # change to whatever the path to your folder is
+# change to whatever the path to your folder is
+path = '/Users/saman/Documents/GitHub/TensorFlow-TrainingData/playdohRaw'
+# alternatively, place this script in the directory with your images
+# path = os.getcwd()
+
 files = os.listdir(path)
 
 for index, file in enumerate(files):

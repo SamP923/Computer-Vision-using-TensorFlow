@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training_images</folder>
+	<filename>PLAYDOH_043.jpg</filename>
+	<path>C:\Users\saman\Documents\GitHub\TensorFlow-TrainingData\resized\training_images\PLAYDOH_043.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>playdoh</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>136</xmin>
+			<ymin>79</ymin>
+			<xmax>607</xmax>
+			<ymax>316</ymax>
+		</bndbox>
+	</object>
+</annotation>

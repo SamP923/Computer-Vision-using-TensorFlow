@@ -14,8 +14,8 @@ os.mkdir('training_images')
 os.mkdir('testing_images')
 
 source_path = os.getcwd()
-training_path = source_path + '\\training_images'
-testing_path = source_path + '\\testing_images'
+training_path = source_path + '\\train'
+testing_path = source_path + '\\test'
 
 files = glob(source_path + "\\*.jpg")
 shuffle(files)

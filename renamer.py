@@ -7,11 +7,11 @@
 
 import os
 # change to whatever the path to your folder is
-path = '/Users/saman/Documents/GitHub/TensorFlow-TrainingData/playdohRaw'
+#path = '/Users/saman/Documents/GitHub/TensorFlow-TrainingData/playdohRaw'
 # alternatively, place this script in the directory with your images
-# path = os.getcwd()
+path = os.getcwd()
 
 files = os.listdir(path)
 
 for index, file in enumerate(files):
-        os.rename(os.path.join(path, file), os.path.join(path, 'img_' + str(index) + '.jpg'))
+        os.rename(os.path.join(path, file), os.path.join(path, 'image' + str(index) + '.jpg'))

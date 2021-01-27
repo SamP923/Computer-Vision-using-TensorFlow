@@ -1,4 +1,4 @@
-# taken from EdjeElectronics
+# adapted from EdjeElectronics
 
 import os
 import glob

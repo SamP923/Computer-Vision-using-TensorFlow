@@ -223,8 +223,8 @@ You may need to decrease the batch size in the model `.config file` if TensorFlo
 Find .config files in `models/research/object_detection/samples/configs`, then choose the one according to what model you’re using, then change the batch size.
 
 
-## Previous Work
-This repo previously hosted a clone of Tensorflow's examples repository. I am now working with TensorFlow's models repository. I had been working on retraining the image classification model to recognize flowers. Eventually, I wanted it to train it to recognize new objects.
+## Legacy Content
+This repo previously hosted a clone of Tensorflow's examples repository. I am now working with TensorFlow's models repository. I had been working on retraining the image classification model to recognize flowers.
 
 ### Helpful Links:
 [Original Repository](https://github.com/tensorflow/examples "TensorFlow's example repository")  
